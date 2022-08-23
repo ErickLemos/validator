@@ -32,8 +32,8 @@ publishing {
     }
     publications {
         gpr(MavenPublication) {
-            groupId = 'org.group'
-            artifactId = 'artifact'
+            groupId = 'org.ericklemos'
+            artifactId = 'validator'
             version = '0.1'
 
             from(components.java)
