@@ -30,4 +30,13 @@ publishing {
             }
         }
     }
+    publications {
+        gpr(MavenPublication) {
+            groupId = 'org.group'
+            artifactId = 'artifact'
+            version = '0.1'
+
+            from(components.java)
+        }
+    }
 }
